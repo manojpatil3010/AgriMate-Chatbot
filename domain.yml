@@ -1,0 +1,72 @@
+version: "2.0"
+
+intents:
+  - greet
+  - affirm
+  - deny
+  - bye
+  - identity
+  - search_kcc
+  - datetime
+  - web_referance
+  - crop_fert
+  - ask_weather_location
+
+actions:
+  - action_question_search
+  - utter_greet
+  - utter_ask_
+  - utter_bye
+  - utter_identity
+  - action_return_time
+  - action_web_referance
+  - action_crop_fertilizer
+  - action_weather
+  - utter_pesticide
+
+entities:
+  - crop_type
+  - kcc_question
+  - weblink
+  - fertilizer
+  - location
+
+slots:
+  kcc_question:
+    type: text
+  crop_type:
+    type: text
+  answer:
+    type: text
+  location:
+    type: text
+
+responses:
+  utter_greet:
+  - buttons:
+    - payload: /ask_weather_location
+      title: weather information
+    - payload: /search_kcc
+      title: pesticides querries
+    - payload: /crop_fert
+      title: nutrient/fertilizer
+    - payload: /deny
+      title: Do nothing
+    text: "Hey! How can i help you?"
+
+  utter_bye:
+  - text: "Bye, Take care"
+
+  utter_ask:
+  - text: "How can I help you?"
+
+  utter_pesticide:
+  - text: "PLease tell me your querry with disease and crop name"
+
+  utter_identity:
+  - text: "I am an AI Chatbot, Developed by ITvedant Students."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

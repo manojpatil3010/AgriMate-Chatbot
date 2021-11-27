@@ -1,0 +1,47 @@
+version: "2.0"
+
+stories:
+
+- story: identity path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: identity
+  - action: utter_identity
+  - intent: bye
+  - action: utter_bye
+
+- story: donothingbtn
+  steps:
+  - intent: deny
+  - action: utter_bye
+
+- story: kcc_answer path
+  steps:
+  - intent: search_kcc
+    # entities:
+    # - crop_type: "acid lime"
+    # - question: "attack of leaf eating caterpillar"
+  - action: action_question_search
+  
+- story: datetime path
+  steps:
+  - intent: datetime
+  - action: action_return_time
+
+- story: web_referance path
+  steps:
+  - intent: web_referance
+  - action: action_web_referance
+
+- story: ask_weather_location path
+  steps:
+  - intent: ask_weather_location
+  - action: action_weather
+
+- story: crop_fert path
+  steps:
+  - intent: crop_fert
+  - action: action_crop_fertilizer
+
+

@@ -6,7 +6,7 @@ This project on AI chatbot assistant developed for the farmers to answer thier q
 we have used authentic data for our project that is accumlated from kisan call center government database.
 
 **Learning Used :-**
-- Rasa framwork
+- Rasa framework
 - Python programming language
 - webscraping techniques
 - Machine leanring algorithms
@@ -14,5 +14,6 @@ we have used authentic data for our project that is accumlated from kisan call c
 
 we hope that every farmer will get better asistance by our AI based agricultural chatbot.
 
-**LinkedIN Profile link**
+## LinkedIN Profile link**
+
 Manoj Patil :- https://www.linkedin.com/in/manoj-patil-0a0736174/

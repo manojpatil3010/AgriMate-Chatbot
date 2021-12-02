@@ -12,6 +12,13 @@ we have used authentic data for our project that is accumlated from kisan call c
 - Machine leanring algorithms
 - NLP models to  build this agri ai asistant.
 
+## Highlights
+![image](https://user-images.githubusercontent.com/86981479/144491904-b287e4d6-ab72-41d9-9943-fbe915d6df48.png)
+![image](https://user-images.githubusercontent.com/86981479/144492016-2625b83d-b44c-4e43-acb3-ce4fbc8fec0d.png)
+![image](https://user-images.githubusercontent.com/86981479/144492175-4a6aacb5-b732-4595-8868-de7661360dd6.png)
+![image](https://user-images.githubusercontent.com/86981479/144492282-448cdbd0-08d2-433f-84af-98b428c6ae7e.png)
+![image](https://user-images.githubusercontent.com/86981479/144492434-a978bc7e-043f-4a1f-94e7-9275ef8bab36.png)
+
 we hope that every farmer will get better asistance by our AI based agricultural chatbot.
 
 ## LinkedIN Profile link**
